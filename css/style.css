@@ -218,11 +218,12 @@ td { vertical-align: top; }
    Author: Paul Graham
    ========================================================================== */
 
+/* Interface Typography */
+
 body {
-  font-size: 16px;
   font-size: 1rem;
-  font-family: "Hoefler Text", Constantia, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
-  
+  font-family: Helvetica Neue, Arial, FreeSans, Ubuntu, sans-serif;
+  line-height: 1.5rem;  
 }
 
 
