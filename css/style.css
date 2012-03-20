@@ -218,7 +218,7 @@ td { vertical-align: top; }
    Author: Paul Graham
    ========================================================================== */
 
-/* Interface Typography */
+/* Interface Typography and Styles */
 
 body {
   font-size: 1rem;
@@ -226,12 +226,31 @@ body {
   line-height: 1.5rem;  
 }
 
+.callout {
+  text-align: center;
+  background-color: red;
+  padding: .5em;
+}
 
+button {
+  margin: .5rem;
+}
 
+button:hover {
+  color: green;
+}
 
+/* Layout */
 
+#wrapper {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
 
-
+#font-staging {
+  margin: 1.5rem;
+}
 
 
 
