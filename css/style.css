@@ -248,10 +248,22 @@ button:hover {
   text-align: center;
 }
 
+.vertical-align {
+  position: absolute;
+  top: 25%;
+}
+
 #font-staging {
   margin: 1.5rem;
 }
 
+#font-staging div {
+  display: none;
+}
+
+#test-types {
+  display: none; /* hide by default */
+}
 
 
 

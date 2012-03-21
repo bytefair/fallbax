@@ -10,33 +10,66 @@
   <script src="js/libs/modernizr-2.5.3.min.js"></script>
 </head>
 <body>
-  <div id="wrapper">
-  <header>
+  <div id="wrapper" class="vertical-align">
+  <header class="UI">
     <hgroup>
-    <h1>Fallbax</h1>
-    <h2>A type testing tool</h2>
+      <h1>Fallbax</h1>
+      <h2>A type testing tool</h2>
     </hgroup>
+    <hr>
   </header>
-  <hr>
+  
+  
+  
   <div id="setup-area">
     <button id="reset">Start a new test</button>
-    <div id="test-types"></div>     <!--- Empty div for choosing test setup -->
+    <div id="test-types">     <!--- Empty div for choosing test setup -->
+      <button id="1test">Readability test - 1 column</button>
+      <button id="3test">Deep comparison - 3 column</button>
+      <button id="6test">Six up</button>
+      <button id="9test">Nine up</button>
+    </div>
   </div>
+  
+  
+  
   <div id="font-staging">
-    <span class="callout">No tests yet set up! Click the button above to start a new test.</span>
+    <div class="1test">
+      
+    </div>
+    
+    
+    
+    <div class="3test">
+      
+    </div>
+    
+    
+    
+    <div class="6test">
+      
+    </div>
+    
+    
+    
+    <div class="9test">
+      
+    </div>
   </div>
-  <hr>
-  <footer>
+  
+  
+  
+  <footer class="UI">
+    <hr>
     <small>
       Fallbax is released under the MIT license and is available at <a href="http://bytefair.github.com/fallbax">bytefair.github.com/fallbax</a><br>
-      Made with <a href="http://jquery.com">jQuery</a> and <a href="http://mustache.github.com/">Mustache.js</a>
+      Made with <a href="http://jquery.com">jQuery</a>
     </small>
   </footer>
 
   <script src="js/libs/jquery-1.7.1.min.js"></script>
-  <script src="js/libs/jquery.mustache.js"></script>
   <script src="js/plugins.js"></script>
-  <script src="js/script-ck.js"></script>
+  <script src="js/script.js"></script>
   </div>
 </body>
 </html>
