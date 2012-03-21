@@ -2,35 +2,27 @@
 
 $(document).ready(function () {
   
+  function testSetup () {
+    var testTypes = {
+      'tests': [
+        { 'label': 'Readability test - 1 column',     'id': 'test-1' },
+        { 'label': 'In-depth typographic - 3 column', 'id': "test-3" },
+        { 'label': 'Six boxes',                       'id': "test-6" },
+        { 'label': 'Nine boxes',                      'id': "test-9" }
+      ]
+    };
+    var buttonTemplate = '{{#tests}}<button id="{{id}}">{{label}}</button>{{/tests}}';
+    
+    //var buttonSet = ;
+    
+    //$('div#test-types').html(buttonSet);
+  }
+
+  
+  
   $('button#reset').click(function() {
     $('div#font-staging').empty();
-    $('div#test-types').html('<button id="test-1">Readability - 1 column</button><button id="test-3">Deep stack testing - 3 column</button><button id="test-6">Six boxes</button><button id="test-9">Nine boxes</button>');
+    testSetup();
   });
-  
-  
-  
-  $('button#test-1').click(function() {
-    
-  });
-  
-  
-  
-  $('button#test-3').click(function() {
-    
-  });
-  
-  
-  
-  $('button#test-6').click(function() {
-    
-  });
-  
-  
-  
-  $('button#test-9').click(function() {
-    
-  });
-  
-  
   
 });
