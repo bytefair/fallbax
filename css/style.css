@@ -226,12 +226,6 @@ body {
   line-height: 1.5rem;  
 }
 
-.callout {
-  text-align: center;
-  background-color: red;
-  padding: .5em;
-}
-
 button {
   margin: .5rem;
 }
@@ -262,10 +256,13 @@ button:hover {
 }
 
 #test-types {
-  display: none; /* hide by default */
+  display: none;
 }
 
-
+.1test {
+  max-width: 40em;
+  text-align: left;
+}
 
 /* ==|== non-semantic helper classes ========================================
    Please define your styles before this section.
