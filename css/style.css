@@ -288,11 +288,14 @@ div.test-row {
 
 #test-1 {
   font-family: serif;
-  max-width: 50em;
   text-align: left;
-  margin: 0 auto;
   text-indent: 1.5em;
   padding: 0 5%;
+}
+
+#test-1-results {
+  max-width: 40em;
+  margin: 0 auto;
 }
 
 #test-3 {
@@ -340,7 +343,21 @@ div.test-row {
 /* Font selction in tests */
 
 .font-controls {
-  
+  font-size: 87.5%;
+  text-align: center;
+}
+
+.font-controls input, .font-controls select {
+  margin-right: 1em;
+  margin-top: 1em;
+}
+
+.resetButton {
+  background-color: rgba(255, 254, 56, 0.5);
+}
+
+.resetButton:hover {
+  background-color: rgb(255, 6, 25);
 }
 
 /* ==|== non-semantic helper classes ========================================
