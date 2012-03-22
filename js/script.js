@@ -16,8 +16,14 @@ $(document).ready(function () {
     $('div#wrapper').removeClass('vertical-align');
     $('div#font-staging').show();
     $('div#font-staging div').hide();
+    var classNum = parseInt(event.target.id, 10);
     
-    $('div.' + event.target.id).show(600);
+    if (classNum === 3) {
+        $('div.test-3-row').show();
+        $('div.test-3-column').show();
+    }
+    
+    $('div.test-' + classNum).show(400);
   });
 
 });
