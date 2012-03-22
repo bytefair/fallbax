@@ -228,10 +228,11 @@ body {
 
 button {
   margin: .5rem;
+  background-color: rgba(60, 141, 59,0.3)
 }
 
 button:hover {
-  color: green;
+  background-color: rgba(60, 141, 59,0.6)
 }
 
 .label {
@@ -251,7 +252,7 @@ button:hover {
 }
 
 .label:hover {
-  background-color: rgba(0,122,122,0.3);
+  background-color: rgba(2, 123, 156,0.3);
 }
 
 /* Layout */
@@ -276,8 +277,9 @@ button:hover {
   display: none;
 }
 
-div.test-3-row {
+div.test-row {
   display: block;
+  clear: both;
 }
 
 #test-types {
@@ -300,8 +302,18 @@ div.test-3-row {
   text-align: left;
 }
 
-.test-3-row {
-  clear: both;
+.test-6 p {
+  max-height: 300px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0.5em;
+}
+
+.test-9 p {
+  max-height: 300px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0.5em;
 }
 
 .test-3-column {
@@ -311,6 +323,10 @@ div.test-3-row {
 
 .test-3-column p {
   padding: 0.5em;
+}
+
+.test-6 p, .test-9 p {
+  padding: 1em;
 }
 
 /* Test 3 font styles */

@@ -1,6 +1,6 @@
 # [Fallbax](http://bytefair.github.com/fallbax)
 
-Fallbax is a font testing suite made with [jQuery](http://jquery.com) and [Mustache.js](http://mustache.github.com).
+Fallbax is a font testing suite made with [jQuery](http://jquery.com).
 
 ## License
 

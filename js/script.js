@@ -3,6 +3,7 @@
 $(document).ready(function () {
   
   $('button#reset').click(function() {
+    $('div.test-row').hide();
     $('div#font-staging div').hide();
     $('div#font-staging').hide(200);
     $('.UI').show();
@@ -17,9 +18,9 @@ $(document).ready(function () {
     $('div#font-staging').show();
     $('div#font-staging div').hide();
     var classNum = parseInt(event.target.id, 10);
+    $('div.test-row').show();
     
-    if (classNum === 3) {
-        $('div.test-3-row').show();
+    if (classNum === 3 || classNum === 6 || classNum === 9 ) {
         $('div.test-3-column').show();
     }
     
