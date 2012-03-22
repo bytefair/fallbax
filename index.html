@@ -30,7 +30,9 @@
       <button id="1test">Readability test - 1 column</button>
       <button id="3test">Deep comparison - 3 column</button>
       <button id="6test">Six up</button>
+      <!-- temporarily disabled
       <button id="9test">Nine up</button>
+      -->
     </div>
   </div>
   
@@ -255,26 +257,39 @@
     
     
     <div id="test-6">
-      <div class="test-row">
-        <div class="test-3-column">
-          <p class="test-6-font-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rutrum pellentesque dolor. Morbi nec purus magna. In ante risus, pellentesque eget luctus ac, vestibulum in orci. Cras congue blandit tristique. Curabitur vel nunc ac quam pharetra sagittis at quis justo. Curabitur imperdiet blandit egestas. Nulla adipiscing purus vel diam tincidunt sit amet posuere arcu tristique. Duis tellus enim, vulputate et consequat et, porta in mi. Nam quis odio elit, vel aliquet nisi. Sed semper porta nibh, non tincidunt metus venenatis ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec imperdiet porta turpis, a tempus odio imperdiet at. Etiam a ligula nunc. Vestibulum condimentum orci nec ligula gravida id vestibulum diam scelerisque.</p>
-        </div>
-        <div class="test-3-column">
-          <p class="test-6-font-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rutrum pellentesque dolor. Morbi nec purus magna. In ante risus, pellentesque eget luctus ac, vestibulum in orci. Cras congue blandit tristique. Curabitur vel nunc ac quam pharetra sagittis at quis justo. Curabitur imperdiet blandit egestas. Nulla adipiscing purus vel diam tincidunt sit amet posuere arcu tristique. Duis tellus enim, vulputate et consequat et, porta in mi. Nam quis odio elit, vel aliquet nisi. Sed semper porta nibh, non tincidunt metus venenatis ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec imperdiet porta turpis, a tempus odio imperdiet at. Etiam a ligula nunc. Vestibulum condimentum orci nec ligula gravida id vestibulum diam scelerisque.</p>
-        </div>
-        <div class="test-3-column">
-          <p class="test-6-font-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rutrum pellentesque dolor. Morbi nec purus magna. In ante risus, pellentesque eget luctus ac, vestibulum in orci. Cras congue blandit tristique. Curabitur vel nunc ac quam pharetra sagittis at quis justo. Curabitur imperdiet blandit egestas. Nulla adipiscing purus vel diam tincidunt sit amet posuere arcu tristique. Duis tellus enim, vulputate et consequat et, porta in mi. Nam quis odio elit, vel aliquet nisi. Sed semper porta nibh, non tincidunt metus venenatis ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec imperdiet porta turpis, a tempus odio imperdiet at. Etiam a ligula nunc. Vestibulum condimentum orci nec ligula gravida id vestibulum diam scelerisque.</p>
-        </div>
+      <div id="test-6-controls" class="font-controls">
+        <b>Font-face 1:</b><input type="text" size="25" id="test-6-font-face-1" value="serif">
+        <b>Font-face 2:</b><input type="text" size="25" id="test-6-font-face-2" value="serif">
+        <b>Font-face 3:</b><input type="text" size="25" id="test-6-font-face-3" value="serif"><br>
+        <b>Font-face 4:</b><input type="text" size="25" id="test-6-font-face-4" value="serif">
+        <b>Font-face 5:</b><input type="text" size="25" id="test-6-font-face-5" value="serif">
+        <b>Font-face 6:</b><input type="text" size="25" id="test-6-font-face-6" value="serif"><br>
+        <b>Font-size:</b><input type="text" size="8" id="test-6-font-size" value="1em">
+        <b>Line-height:</b><input type="text" size="8" id="test-6-line-height" value="1.5em">
+        <hr>
       </div>
-      <div class="test-row">
-        <div class="test-3-column">
-          <p class="test-6-font-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rutrum pellentesque dolor. Morbi nec purus magna. In ante risus, pellentesque eget luctus ac, vestibulum in orci. Cras congue blandit tristique. Curabitur vel nunc ac quam pharetra sagittis at quis justo. Curabitur imperdiet blandit egestas. Nulla adipiscing purus vel diam tincidunt sit amet posuere arcu tristique. Duis tellus enim, vulputate et consequat et, porta in mi. Nam quis odio elit, vel aliquet nisi. Sed semper porta nibh, non tincidunt metus venenatis ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec imperdiet porta turpis, a tempus odio imperdiet at. Etiam a ligula nunc. Vestibulum condimentum orci nec ligula gravida id vestibulum diam scelerisque.</p>
+      <div id="test-6-results">
+        <div class="test-row">
+          <div class="test-3-column">
+            <p class="test-6-font-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rutrum pellentesque dolor. Morbi nec purus magna. In ante risus, pellentesque eget luctus ac, vestibulum in orci. Cras congue blandit tristique. Curabitur vel nunc ac quam pharetra sagittis at quis justo. Curabitur imperdiet blandit egestas. Nulla adipiscing purus vel diam tincidunt sit amet posuere arcu tristique. Duis tellus enim, vulputate et consequat et, porta in mi. Nam quis odio elit, vel aliquet nisi. Sed semper porta nibh, non tincidunt metus venenatis ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec imperdiet porta turpis, a tempus odio imperdiet at. Etiam a ligula nunc. Vestibulum condimentum orci nec ligula gravida id vestibulum diam scelerisque.</p>
+          </div>
+          <div class="test-3-column">
+            <p class="test-6-font-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rutrum pellentesque dolor. Morbi nec purus magna. In ante risus, pellentesque eget luctus ac, vestibulum in orci. Cras congue blandit tristique. Curabitur vel nunc ac quam pharetra sagittis at quis justo. Curabitur imperdiet blandit egestas. Nulla adipiscing purus vel diam tincidunt sit amet posuere arcu tristique. Duis tellus enim, vulputate et consequat et, porta in mi. Nam quis odio elit, vel aliquet nisi. Sed semper porta nibh, non tincidunt metus venenatis ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec imperdiet porta turpis, a tempus odio imperdiet at. Etiam a ligula nunc. Vestibulum condimentum orci nec ligula gravida id vestibulum diam scelerisque.</p>
+          </div>
+          <div class="test-3-column">
+            <p class="test-6-font-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rutrum pellentesque dolor. Morbi nec purus magna. In ante risus, pellentesque eget luctus ac, vestibulum in orci. Cras congue blandit tristique. Curabitur vel nunc ac quam pharetra sagittis at quis justo. Curabitur imperdiet blandit egestas. Nulla adipiscing purus vel diam tincidunt sit amet posuere arcu tristique. Duis tellus enim, vulputate et consequat et, porta in mi. Nam quis odio elit, vel aliquet nisi. Sed semper porta nibh, non tincidunt metus venenatis ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec imperdiet porta turpis, a tempus odio imperdiet at. Etiam a ligula nunc. Vestibulum condimentum orci nec ligula gravida id vestibulum diam scelerisque.</p>
+          </div>
         </div>
-        <div class="test-3-column">
-          <p class="test-6-font-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rutrum pellentesque dolor. Morbi nec purus magna. In ante risus, pellentesque eget luctus ac, vestibulum in orci. Cras congue blandit tristique. Curabitur vel nunc ac quam pharetra sagittis at quis justo. Curabitur imperdiet blandit egestas. Nulla adipiscing purus vel diam tincidunt sit amet posuere arcu tristique. Duis tellus enim, vulputate et consequat et, porta in mi. Nam quis odio elit, vel aliquet nisi. Sed semper porta nibh, non tincidunt metus venenatis ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec imperdiet porta turpis, a tempus odio imperdiet at. Etiam a ligula nunc. Vestibulum condimentum orci nec ligula gravida id vestibulum diam scelerisque.</p>
-        </div>
-        <div class="test-3-column">
-          <p class="test-6-font-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rutrum pellentesque dolor. Morbi nec purus magna. In ante risus, pellentesque eget luctus ac, vestibulum in orci. Cras congue blandit tristique. Curabitur vel nunc ac quam pharetra sagittis at quis justo. Curabitur imperdiet blandit egestas. Nulla adipiscing purus vel diam tincidunt sit amet posuere arcu tristique. Duis tellus enim, vulputate et consequat et, porta in mi. Nam quis odio elit, vel aliquet nisi. Sed semper porta nibh, non tincidunt metus venenatis ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec imperdiet porta turpis, a tempus odio imperdiet at. Etiam a ligula nunc. Vestibulum condimentum orci nec ligula gravida id vestibulum diam scelerisque.</p>
+        <div class="test-row">
+          <div class="test-3-column">
+            <p class="test-6-font-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rutrum pellentesque dolor. Morbi nec purus magna. In ante risus, pellentesque eget luctus ac, vestibulum in orci. Cras congue blandit tristique. Curabitur vel nunc ac quam pharetra sagittis at quis justo. Curabitur imperdiet blandit egestas. Nulla adipiscing purus vel diam tincidunt sit amet posuere arcu tristique. Duis tellus enim, vulputate et consequat et, porta in mi. Nam quis odio elit, vel aliquet nisi. Sed semper porta nibh, non tincidunt metus venenatis ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec imperdiet porta turpis, a tempus odio imperdiet at. Etiam a ligula nunc. Vestibulum condimentum orci nec ligula gravida id vestibulum diam scelerisque.</p>
+          </div>
+          <div class="test-3-column">
+            <p class="test-6-font-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rutrum pellentesque dolor. Morbi nec purus magna. In ante risus, pellentesque eget luctus ac, vestibulum in orci. Cras congue blandit tristique. Curabitur vel nunc ac quam pharetra sagittis at quis justo. Curabitur imperdiet blandit egestas. Nulla adipiscing purus vel diam tincidunt sit amet posuere arcu tristique. Duis tellus enim, vulputate et consequat et, porta in mi. Nam quis odio elit, vel aliquet nisi. Sed semper porta nibh, non tincidunt metus venenatis ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec imperdiet porta turpis, a tempus odio imperdiet at. Etiam a ligula nunc. Vestibulum condimentum orci nec ligula gravida id vestibulum diam scelerisque.</p>
+          </div>
+          <div class="test-3-column">
+            <p class="test-6-font-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rutrum pellentesque dolor. Morbi nec purus magna. In ante risus, pellentesque eget luctus ac, vestibulum in orci. Cras congue blandit tristique. Curabitur vel nunc ac quam pharetra sagittis at quis justo. Curabitur imperdiet blandit egestas. Nulla adipiscing purus vel diam tincidunt sit amet posuere arcu tristique. Duis tellus enim, vulputate et consequat et, porta in mi. Nam quis odio elit, vel aliquet nisi. Sed semper porta nibh, non tincidunt metus venenatis ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec imperdiet porta turpis, a tempus odio imperdiet at. Etiam a ligula nunc. Vestibulum condimentum orci nec ligula gravida id vestibulum diam scelerisque.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -287,7 +302,7 @@
     
     
     
-    
+    <!-- temporarily disabled
     <div id="test-9">
       <div class="test-row">
         <div class="test-3-column">
@@ -323,6 +338,7 @@
         </div>
       </div>
     </div>
+    -->
   </div>
   
   

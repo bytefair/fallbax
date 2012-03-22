@@ -129,8 +129,47 @@ $(document).ready(function () {
 
 
 
+  // controlling fonts on 6-up test
 
+  $('input#test-6-font-face-1').keyup(function() {
+    var currentValue =  $(this).val();
+    $('p.test-6-font-1').css('font-family', currentValue);
+  });
 
+  $('input#test-6-font-face-2').keyup(function() {
+    var currentValue =  $(this).val();
+    $('p.test-6-font-2').css('font-family', currentValue);
+  });
+
+  $('input#test-6-font-face-3').keyup(function() {
+    var currentValue =  $(this).val();
+    $('p.test-6-font-3').css('font-family', currentValue);
+  });
+
+  $('input#test-6-font-face-4').keyup(function() {
+    var currentValue =  $(this).val();
+    $('p.test-6-font-4').css('font-family', currentValue);
+  });
+
+  $('input#test-6-font-face-5').keyup(function() {
+    var currentValue =  $(this).val();
+    $('p.test-6-font-5').css('font-family', currentValue);
+  });
+
+  $('input#test-6-font-face-6').keyup(function() {
+    var currentValue =  $(this).val();
+    $('p.test-6-font-6').css('font-family', currentValue);
+  });
+
+  $('input#test-6-font-size').keyup(function() {
+    var currentValue =  $(this).val();
+    $('div#test-6-results').css('font-size', currentValue);
+  });
+
+  $('input#test-6-line-height').keyup(function() {
+    var currentValue =  $(this).val();
+    $('div#test-6-results').css('line-height', currentValue);
+  });
 
 
 
