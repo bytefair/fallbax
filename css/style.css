@@ -286,7 +286,7 @@ div.test-row {
   display: none;
 }
 
-.test-1 {
+#test-1 {
   font-family: serif;
   max-width: 50em;
   text-align: left;
@@ -295,21 +295,21 @@ div.test-row {
   padding: 0 5%;
 }
 
-.test-3 {
+#test-3 {
   font-family: serif;
   margin: 0 auto;
   padding: 0 2.5%;
   text-align: left;
 }
 
-.test-6 p {
+#test-6 p {
   max-height: 270px;
   overflow: hidden;
   margin: 0 auto;
   padding: 0.5em;
 }
 
-.test-9 p {
+#test-9 p {
   max-height: 300px;
   overflow: hidden;
   margin: 0 auto;
@@ -325,7 +325,7 @@ div.test-row {
   padding: 0.5em;
 }
 
-.test-6 p, .test-9 p {
+#test-6 p, #test-9 p {
   padding: 1em;
 }
 
@@ -336,6 +336,12 @@ div.test-row {
 .font-bold {font-weight: bold}
 .font-small-caps{font-variant: small-caps}
 .font-oblique{font-style: oblique}
+
+/* Font selction in tests */
+
+.font-controls {
+  
+}
 
 /* ==|== non-semantic helper classes ========================================
    Please define your styles before this section.
