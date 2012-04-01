@@ -132,9 +132,9 @@ textarea {
 }
 body {
   margin: 0;
-  font-family: 'Gill Sans', Ubuntu, 'Lucida Sans Unicode', 'Lucida Sans', Verdana, 'Liberation Sans', FreeSans, sans-serif;
-  font-size: 16px;
-  line-height: 21px;
+  font-family: Ubuntu, 'Helvetica Neue', Verdana, 'Liberation Sans', FreeSans, sans-serif;
+  font-size: 1em;
+  line-height: 1.42em;
   color: #333333;
   background-color: #ffffff;
 }
@@ -322,9 +322,6 @@ a:hover {
 }
 p {
   margin: 0 0 10.5px;
-  font-family: 'Gill Sans', Ubuntu, 'Lucida Sans Unicode', 'Lucida Sans', Verdana, 'Liberation Sans', FreeSans, sans-serif;
-  font-size: 16px;
-  line-height: 21px;
 }
 p small {
   font-size: 14px;
