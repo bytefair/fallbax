@@ -74,15 +74,15 @@ $(document).ready(function () {
       $('div#test-1-results').css({ 'font-family' : 'serif',
                                     'font-size'   : '1em',
                                     'line-height' : '1.5em',
-                                    'text-indent' : '1.5em',
-                                    'max-width'   : '40em',
+                                    'text-indent' : '0',
+                                    'max-width'   : '35em',
                                     'text-align'  : 'left'
       });
       $('input#test-1-font-face').val('serif');
       $('input#test-1-font-size').val('1em');
       $('input#test-1-line-height').val('1.5em');
-      $('input#test-1-text-indent').val('1.5em');
-      $('input#test-1-column-width').val('40em');
+      $('input#test-1-text-indent').val('0');
+      $('input#test-1-column-width').val('35em');
       $('select#test-1-justify').val('left');
     }
     

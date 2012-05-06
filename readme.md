@@ -2,6 +2,8 @@
 
 Fallbax is a font testing suite made with [jQuery](http://jquery.com).
 
+The current version is 0.5.1
+
 ## Version History
 
 __0.5__ - First release, three tests implemented. You can test font face, size, line height, text indent, column width, and justification on the readability test. You can test three faces, font size and line height on the deep test in all major typographic variants. You can test six faces, with the same line height and font size on the six-up test.
